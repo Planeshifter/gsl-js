@@ -1,0 +1,19 @@
+{
+  "name": "gsl",
+  "version": "0.1.0",
+  "description": "gsl-js ======",
+  "main": "js/output.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Planeshifter/gsl-js.git"
+  },
+  "author": "",
+  "license": "GPL-2",
+  "bugs": {
+    "url": "https://github.com/Planeshifter/gsl-js/issues"
+  },
+  "homepage": "https://github.com/Planeshifter/gsl-js"
+}
