@@ -16,6 +16,6 @@ emmake make
 
 cd $DIR
 
-emcc -O2 -g3 gsl-1.16/cdf/*.o gsl-1.16/specfunc/*.o gsl-1.16/randist/*.o gsl-1.16/rng/*.o -o "${DIR}/js/output.js" $LDFLAGS $JS_EXPORTS_FLAGS  --post-js wrapper.js
+emcc -O2 -g0 gsl-1.16/cdf/*.o gsl-1.16/specfunc/*.o gsl-1.16/randist/*.o gsl-1.16/rng/*.o -o "${DIR}/output.js" $LDFLAGS $JS_EXPORTS_FLAGS  --post-js wrapper.js
 
 echo "JS build finished"
